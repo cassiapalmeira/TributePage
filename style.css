@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #CCC5B9, #403D39); /*gradiente do fundo*/
+}
+main{
+    background-color: #FFFCF2; /*cor que vai formar um quadro em destaque na página com a parte principal do texto*/
+    width: 700px; /*largura do quadro*/
+    padding: 30px; /*aumenta alguns pixels do quadro pra que as letras não fiquem exatamente no limite dele*/
+    margin: auto; /*centraliza o quadro na página*/
+    border-radius: 10px; /*arredonda as pontas do quadro*/
+    box-shadow:10px 10px 10px #403D39; /*coloca uma sombra no quadro*/
+    color: #252422; /*cor da fonte*/
+    text-align: justify;
+}
+h1{
+    color: #EB5E28;
+    text-align: center;
+    text-shadow: 1px 1px 2px #4e200e; /*adicionou sombra ao título*/
+}
+h2 {
+    color: #f84802;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8b3918cb; /*adicionou sombra ao subtítulo*/
+}
+p{ /*texto que está fora do main*/
+    color: #2b1e07;
+    text-align: center;
+    font-size: 15px;
+}
