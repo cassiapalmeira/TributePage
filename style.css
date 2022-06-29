@@ -1,7 +1,7 @@
 @charset "UTF-8";
-*{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;600&display=swap');
 body {
     background-image: linear-gradient(to right, #CCC5B9, #403D39); /*gradiente do fundo*/
 }
@@ -13,20 +13,26 @@ main{
     border-radius: 10px; /*arredonda as pontas do quadro*/
     box-shadow:10px 10px 10px #403D39; /*coloca uma sombra no quadro*/
     color: #252422; /*cor da fonte*/
-    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
 }
 h1{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 3.5em;
     color: #EB5E28;
     text-align: center;
     text-shadow: 1px 1px 2px #4e200e; /*adicionou sombra ao título*/
 }
 h2 {
-    color: #f84802;
+    font-family: 'Clicker Script', cursive;
+    font-size: 3em;
+    color: #f38f68;
     text-align: center;
     text-shadow: 1px 1px 2px #8b3918cb; /*adicionou sombra ao subtítulo*/
 }
-p{ /*texto que está fora do main*/
+p{
     color: #2b1e07;
-    text-align: center;
-    font-size: 15px;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
 }
